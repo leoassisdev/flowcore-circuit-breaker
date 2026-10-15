@@ -1,0 +1,15 @@
+{
+  "name": "flowcore-circuit-breaker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Disjuntor com estados fechado, aberto e meio-aberto: para de chamar o serviço que está caindo e testa a volta sozinho. Seu sistema continua de pé quando o fornecedor sai do ar.",
+  "author": "FlowCore Soluções LTDA",
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  }
+}
